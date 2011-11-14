@@ -18,11 +18,11 @@
     
     "repository": {
         "type": "git",
-        "url": "http://github.com/steelmesh/steelmesh-loader.git"
+        "url": "http://github.com/steelmesh/addin-loader.git"
     },
     
     "bugs": {
-        "url": "http://github.com/steelmesh/steelmesh-loader/issues"
+        "url": "http://github.com/steelmesh/addin-loader/issues"
     },
     
     "contributors": [
