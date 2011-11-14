@@ -1,0 +1,30 @@
+{
+    "name": "steelmesh-loader",
+    "description": "JavaScript application loader logic",
+    "author": "Damon Oehlman <damon.oehlman@sidelab.com>",
+    "tags": ["steelmesh", "loader", "LABjs"],
+    "version": "0.0.1",
+    
+    "main": "index.js",
+    "engines": { "node": ">= 0.4.x < 0.7.0" },
+        
+    "dependencies": {
+    },
+    
+    "devDependencies": {
+        "interleave": "x.x.x",
+        "vows": "0.5.x"
+    },
+    
+    "repository": {
+        "type": "git",
+        "url": "http://github.com/steelmesh/steelmesh-loader.git"
+    },
+    
+    "bugs": {
+        "url": "http://github.com/steelmesh/steelmesh-loader/issues"
+    },
+    
+    "contributors": [
+    ]
+}
