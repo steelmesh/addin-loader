@@ -1,5 +1,6 @@
 var fs = require('fs'),
     path = require('path'),
+    loader = require('./lib/loader');
     loaderPath = 'assets/loader.js';
 
 exports.install = function(mesh, instance) {
@@ -12,6 +13,10 @@ exports.install = function(mesh, instance) {
                 res.contentType(loaderPath);
                 res.send(content);
             });
+            
+            instance.get('/loader', loader.getConfig);
         }
     });
+    
+    loader.init(mesh, app);
 };
